@@ -8,7 +8,7 @@ The analysis includes:
 2) Launching each tool and performing the predictions on all of the PDB files in RNA_PDB.zip
 3) Standarizing the output
 4) Filtering out the molecules for which no pairs were predicted
-5) INF values calculations: first for each molecule and each set of tools, then an overall INF value for each set of tools, and finally, a mean value for each tool.
+5) Calculating INF values: first for each molecule and each set of tools, then an overall INF value for each set of tools, and finally, a mean value for each tool.
 6) Obtaining visual results - tables and plots summarizing the INF values calculations
 
 The analysis of the INF values was performed separately for all predicted pairs, only canonical pairs, and only non-canonical pairs. Additionally, for non-canonical pairs, an extra analysis was performed with a separation for each class of non-canonical pairs (cHH, cHW, cSW, cWW, cSS, cSH, tHH, tHW, tSW, tWW, tSS, THS).
