@@ -1,19 +1,19 @@
-FROM ubuntu-16.04-openjdk-8:latest
+FROM ubuntu:16.04
 
 RUN apt-get update && \
     apt-get upgrade -y && \
-    apt-get install aptitude build-essential dos2unix zip -y
+    apt-get install aptitude build-essential dos2unix zip xz-utils -y
 	
-COPY ./maxit-v10.000-prod-src.zip /opt/maxit-v10.000-prod-src.zip
+COPY ./maxit-v10.000-prod-src.tar.xz /opt/maxit-v10.000-prod-src.tar.xz
 
 RUN cd /opt/ && \
-    unzip maxit-v10.000-prod-src.zip && \
+    tar -xf maxit-v10.000-prod-src.tar.xz && \
 	chmod +x /opt/maxit-v10.000-prod-src/bin/maxit
 
 ENV RCSBROOT=/opt/maxit-v10.000-prod-src
 ENV PATH="$RCSBROOT/bin:"$PATH
 	
-RUN rm /opt/maxit-v10.000-prod-src.zip
+RUN rm /opt/maxit-v10.000-prod-src.tar.xz
 
 WORKDIR /opt/maxit-v10.000-prod-src/bin/
 
