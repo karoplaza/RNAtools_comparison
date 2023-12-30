@@ -10,7 +10,7 @@ Maxit2 = False
 var1="barnaba"
 var2="maxit"
 type_list = ["all","canonical","non-canonical"]
-#path to an output csv file (result of var1 and var2 compared by using in_all.py)
+#path to an output csv file (result of var1 and var2 compared by using inf_all.py)
 path0 = f"/usr/all/{var1}/{var1}-{var2}-all.csv"
 df0 = pd.read_csv(path0)
 # creating a general list of molecules for which the INF value in equal to 0
@@ -204,7 +204,7 @@ for type in type_list:
         # Adding the dataframe to a list of dataframes for a given pair of tools
         all_results.append(result_df)
 
-    # Combining all results from this analysis - all results for the molecules for which the INF value was ewual to 0 in the df dataframe
+    # Combining all results from this analysis - all results for the molecules for which the INF value was equal to 0 in the df dataframe
     try:
         all_results_df = pd.concat(all_results, ignore_index=True)
     except:
