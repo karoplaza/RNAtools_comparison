@@ -1,0 +1,10 @@
+# /usr/local/bin/barnaba ANNOTATE --pdb /tmp/inz/1A9N_1_Q.pdb -o /tmp/inz//1A9N_1_Q.out 
+#RES1       RES2       ANNO 
+# PDB 1A9N_1_Q.pdb 
+# sequence C_0_0-C_1_0-U_2_0-G_3_0-G_4_0-U_5_0-A_6_0-U_7_0-U_8_0-G_9_0-C_10_0-A_11_0-G_12_0-U_13_0-A_14_0-C_15_0-C_16_0-U_17_0-C_18_0-C_19_0-A_20_0-G_21_0-G_22_0-U_23_0
+C_0_0      G_22_0      WCc 
+C_1_0      G_21_0      WCc 
+U_2_0      A_20_0      WCc 
+G_3_0      C_19_0      WCc 
+G_4_0      C_18_0      WCc 
+U_5_0      U_17_0      WWc 

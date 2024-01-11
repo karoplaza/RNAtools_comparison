@@ -1,0 +1,30 @@
+nt1,nt2,type,classification-1,classification-2
+Q.C0,Q.G22,base pair,cWW,XIX
+Q.C1,Q.G21,base pair,cWW,XIX
+Q.U2,Q.A20,base pair,cWW,XX
+Q.G3,Q.C19,base pair,cWW,XIX
+Q.G4,Q.C18,base pair,cWW,XIX
+Q.U5,Q.U17,base pair,cWW,XVI
+Q.C0,Q.C1,stacking,upward,
+Q.C1,Q.U2,stacking,upward,
+Q.C1,Q.G22,stacking,inward,
+Q.G3,Q.G4,stacking,upward,
+Q.G3,Q.A20,stacking,inward,
+Q.G4,Q.U5,stacking,upward,
+Q.A6,Q.U7,stacking,upward,
+Q.A6,Q.U17,stacking,inward,
+Q.A11,Q.G12,stacking,inward,
+Q.A14,Q.C15,stacking,upward,
+Q.C15,Q.C16,stacking,upward,
+Q.U17,Q.C18,stacking,upward,
+Q.C18,Q.C19,stacking,upward,
+Q.C19,Q.A20,stacking,upward,
+Q.A20,Q.G21,stacking,upward,
+Q.G21,Q.G22,stacking,upward,
+Q.G22,Q.U23,stacking,upward,
+Q.A11,Q.C10,base-phosphate interaction,0BPh,
+Q.U13,Q.G12,base-phosphate interaction,0BPh,
+Q.C15,Q.A14,base-phosphate interaction,9BPh,
+Q.A11,Q.C10,base-ribose interaction,0BPh,
+Q.U13,Q.G12,base-ribose interaction,0BPh,
+Q.C15,Q.A14,base-ribose interaction,9BPh,

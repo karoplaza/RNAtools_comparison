@@ -1,0 +1,52 @@
+Residue conformations -------------------------------------------
+Q0 : C C3p_endo anti
+Q1 : C C3p_endo anti
+Q2 : U C1p_endo anti
+Q3 : G C2p_exo anti
+Q4 : G C3p_endo anti
+Q5 : U C3p_endo anti
+Q6 : A C3p_endo anti
+Q7 : U C3p_endo anti
+Q8 : U C2p_endo anti
+Q9 : G C3p_endo anti
+Q10 : C C3p_exo anti
+Q11 : A C3p_endo anti
+Q12 : G C2p_endo syn
+Q13 : U C2p_endo anti
+Q14 : A C1p_endo anti
+Q15 : C C3p_endo anti
+Q16 : C C1p_exo anti
+Q17 : U C3p_endo anti
+Q18 : C C3p_endo anti
+Q19 : C C3p_endo anti
+Q20 : A C3p_endo anti
+Q21 : G C3p_endo anti
+Q22 : G C3p_endo anti
+Q23 : U C2p_exo anti
+Adjacent stackings ----------------------------------------------
+Q0-Q1 : adjacent_5p upward 
+Q1-Q2 : adjacent_5p upward 
+Q3-Q4 : adjacent_5p upward 
+Q4-Q5 : adjacent_5p upward 
+Q6-Q7 : adjacent_5p upward 
+Q11-Q12 : adjacent_5p inward 
+Q14-Q15 : adjacent_5p upward 
+Q15-Q16 : adjacent_5p upward 
+Q17-Q18 : adjacent_5p upward 
+Q19-Q20 : adjacent_5p upward 
+Q20-Q21 : adjacent_5p upward 
+Q21-Q22 : adjacent_5p upward 
+Q22-Q23 : adjacent_5p upward 
+Non-Adjacent stackings ------------------------------------------
+Q3-Q20 : outward 
+Q6-Q17 : outward 
+Number of stackings = 15
+Number of adjacent stackings = 13
+Number of non adjacent stackings = 2
+Base-pairs ------------------------------------------------------
+Q0-Q22 : C-G Ww/Ww pairing antiparallel cis XIX 
+Q1-Q21 : C-G Ww/Ww pairing antiparallel cis XIX 
+Q2-Q20 : U-A Ww/Ww pairing antiparallel cis XX 
+Q3-Q19 : G-C Ww/Ww pairing antiparallel cis XIX 
+Q4-Q18 : G-C Ww/Ww pairing antiparallel cis XIX 
+Q5-Q17 : U-U Ws/Ww pairing antiparallel cis XVI 

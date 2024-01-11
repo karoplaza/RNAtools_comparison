@@ -1,0 +1,6 @@
+chain1,resname1,resno1,chain2,resname2,resno2,type
+A,C,0,A,G,22,cWW
+A,C,1,A,G,21,cWW
+A,U,2,A,A,20,cWW
+A,G,3,A,C,19,cWW
+A,G,4,A,C,18,cWW

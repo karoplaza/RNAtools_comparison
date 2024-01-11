@@ -1,0 +1,19 @@
+PDB data file name: /tmp/inz/1A9N_1_Q.pdb
+BEGIN_base-pair
+     1_23, Q:     0 C-G    22 Q: +/+ cis         XIX
+     2_22, Q:     1 C-G    21 Q: +/+ cis         XIX
+     3_21, Q:     2 U-A    20 Q: -/- cis         XX
+     4_20, Q:     3 G-C    19 Q: +/+ cis         XIX
+     5_19, Q:     4 G-C    18 Q: +/+ cis         XIX
+     6_18, Q:     5 U-U    17 Q: W/W cis         XVI
+      7_8, Q:     6 A-U     7 Q:      stacked
+    16_17, Q:    15 C-C    16 Q:      stacked
+    10_11, Q:     9 G-C    10 Q: S/. cis         !(s_s)
+END_base-pair
+  The total base pairs =   6 (from   24 bases)
+------------------------------------------------
+ Standard  WW--cis  WW-tran  HH--cis  HH-tran  SS--cis  SS-tran
+        5        1        0        0        0        0        0
+  WH--cis  WH-tran  WS--cis  WS-tran  HS--cis  HS-tran
+        0        0        0        0        0        0
+------------------------------------------------
