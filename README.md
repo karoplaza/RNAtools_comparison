@@ -10,7 +10,9 @@ The objective of this project is to compare various RNA tools which predict the 
 
 ## Example Analysis
 The example analysis is showed for a molecule 1A9N_1_Q.pdb. 
+
 **Tool Launching**
+
 Before launching each tool, a Docker image has to be built based on a Dockerfile for the given tool. An example of building a Docker image for the ClaRNA tool is shown below. 
 ```sh
 docker build -t clarna-image .
@@ -65,7 +67,9 @@ docker run --rm -v /path:/path --entrypoint ./rnaview rnaview-image 1A9N_1_Q.pdb
 ```sh
 docker run --rm -v /path:/path --entrypoint annotator rnapolis-image --csv 1A9N_1_Q_out.csv 1A9N_1_Q.pdb 
 ```
+
 **Standarization**
+
 Depending on the tool, various standardization steps were necessary to apply. Below are example standardization commands. For each tool, the final output consists of three files listing standardized pairs: one includes all generated pairs, one for only canonical pairs, and one for only non-canonical pairs. Example Standarization Results are included in the directory called 'Example Results'.
 1. DSSR, MAXIT, MC-Annotate and RNAView
 For the tools listed above, the following commands are used to standarize the data. In Maxit's case 1A9N_1_Q.cif.cif instead of 1A9N_1_Q.out should be used.
@@ -130,6 +134,7 @@ awk -f transform_ids.awk < 1A9N_1_Q-non-canonical0.csv > 1A9N_1_Q-non-canonical.
 ```
 
 **Further Analysis**
+
 Next steps of the Evaluation included filtering out the molecules for which no pairs were generated, calculating the Interaction Netwrok Fidelity (INF) values and analysing both size distribution and its influence on the obtained INF results. For this reason, scripts included in directories 'Number of Pairs','INF Values' and 'Molecule Size Distribution' have been used. 
 
 When calculating the INF value, the tools have been compared in pairs. Each tool has been compared as both the reference tools and compared tool. In python scripts provided in 'INF Values' directory, the differences in information provided by the tools (Leontis Westhof's classification, Saenger's classification or both) are taken into account and it's possible to modify the scripts accordingly.
