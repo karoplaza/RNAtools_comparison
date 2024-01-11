@@ -15,7 +15,7 @@ do
   sed -i 's/\r//g' $file
   sed -i 's/\r//g' $awkdir/convert.awk
   awk -f $awkdir/convert.awk < $file > $base-all0.csv
-  sed -e '2,4d' $base-all0.csv > $base-all1.csv
+  sed -e '2,4d' $base-all0.csv > $base-all.csv
   sed -i 's/\r//g' $base-all.csv
   awk -f $awkdir/canonical.awk < $base-all.csv > $base-canonical.csv
   awk -f $awkdir/non-canonical.awk < $base-all.csv > $base-non-canonical.csv
