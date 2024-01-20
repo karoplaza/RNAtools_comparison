@@ -5,7 +5,7 @@ The objective of this project is to compare various RNA tools which predict the 
 - Standarizing the output
 - Filtering out the molecules for which no pairs were predicted
 - Calculating INF values: first for each molecule and each set of tools, then an overall INF value for each set of tools, and finally, a mean value for each tool. Obtaining visual results - tables and plots summarizing the INF values calculations.
-- The analysis of the INF values was performed separately for all predicted pairs, only canonical pairs, and only non-canonical pairs. Additionally, for non-canonical pairs, an extra analysis was performed with a separation for each class of non-canonical pairs (cHH, cHW, cSW, cWW, cSS, cSH, tHH, tHW, tSW, tWW, tSS, THS).
+- The analysis of the INF values was performed separately for all predicted pairs, only canonical pairs, and only non-canonical pairs. Additionally, for non-canonical pairs, an extra analysis was performed with a separation for each class of non-canonical pairs (cHH, cWH, cWS, cWW, cSS, cHS, tHH, tWH, tWS, tWW, tSS, tHS).
 - Analyzing the distribution of molecule size in the RNA set.
 
 ## Example Analysis
