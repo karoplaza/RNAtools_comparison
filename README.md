@@ -51,6 +51,7 @@ awk -f filter.awk < 1A9N_1_Q.cif > 1A9N_1_Q_filtered.cif
 docker run --rm -v /path:/path maxit-10.0:latest -input 1A9N_1_Q_filtered.cif -output 1A9N_1_Q.cif.cif -o 8
 ```
 The ouput file is written to a file with a suffix ".cif.cif"
+
 6) MC-Annotate
 ```sh
 docker run --rm -v /path:/path --entrypoint ./MC-Annotate mc-image 1A9N_1_Q.pdb > 1A9N_1_Q.out
