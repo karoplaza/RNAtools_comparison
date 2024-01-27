@@ -26,6 +26,7 @@ Generally, PDB files are required as input to launch the tools. The output file 
 docker run --rm -v /path:/path barnaba-image barnaba ANNOTATE --pdb 1A9N_1_Q.pdb -o 1A9N_1_Q.out
 ```
 The ouput file is written to a file with a suffix ".ANNOTATE.pairing.out"
+
 2) ClaRNA
 ```sh
 docker run --rm -v /path:/path clarna-image rna_clarna_run.py -ipdb 1A9N_1_Q.pdb >> 1A9N_1_Q.out
